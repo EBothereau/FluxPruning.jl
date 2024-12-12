@@ -34,7 +34,7 @@ Unstructured
 using Flux
 using FluxPruning
 
-m = Chain(
+model = Chain(
   Conv((7,), 2 => 128, pad=SamePad(), relu),
   Conv((5,), 128 => 128, pad=SamePad(), relu),
   MaxPool((2,)),
