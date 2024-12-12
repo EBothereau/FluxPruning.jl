@@ -68,16 +68,20 @@ It is also possible to designate the number of filters/neurons to remove manuall
 
 ```
 input_data_size = (256,2,1) # Dimensions of the typical batch size of the network.
-ratio = 0.5 # ratio of weights or elements to be removed
+ratio = 0# ratio of weights or elements to be removed
 localite_pruning = "local" # local or global
 norme_pruning = "geomedian" # see the following table to find the corresponding pruning methods 
-elements_to_prune = [1,1,0,0,0]
+elements_to_prune = [120,10,200,5,0]
 
 r = RatioPrune(ratio,norme_pruning,localite_pruning, input_data_size)
 model = filterPruning(model,r,elements_to_prune)
 ```
+Will return the folowwing network: 
 
+```
+Chain([Conv((7,), 2 => 8, relu, pad=3), MaxPool((4,)), Conv((5,), 8 => 118, relu, pad=2), MaxPool((2,)), flatten, Dense(3776 => 56, relu), Dropout(0.5), Dense(56 => 123, relu), Dense(123 => 6)])
 
+```
 
 ## Unstructured Pruning
 When appliying unstructured pruning:
