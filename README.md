@@ -104,4 +104,4 @@ mask will return a matrix indicating which weights are to be set to 0. It is nec
 
 
 
-[![Build Status](https://github.com/EBothereau/PruningForFlux.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/EBothereau/PruningForFlux.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Build Status](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml?query=branch%3Amain)
