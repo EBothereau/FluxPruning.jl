@@ -32,7 +32,7 @@ Unstructured
 
 ``` 
 using Flux
-using PruningForFlux
+using FluxPruning
 
 m = Chain(
   Conv((7,), 2 => 128, pad=SamePad(), relu),
