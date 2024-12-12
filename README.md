@@ -43,7 +43,7 @@ model = Chain(
   Dropout(0.5),
   Dense(256, 128, relu),
   Dropout(0.5),
-  Dense(128,x),
+  Dense(128,6),
 )
 
 input_data_size = (256,2,1) # Dimensions of the typical batch size of the network.
