@@ -11,13 +11,13 @@ Structured
 - local
   - L1
   - L2
-  - geomedian
+  - geomedian [Link](https://arxiv.org/abs/1811.00250)
   - mean
   - median
   - cor (to be fixed)
   - random
 - global
-  - cop_0_0 (to be fixed)
+  - cop_0_0 (to be fixed) [Link](https://arxiv.org/abs/1906.10337)
 
 Unstructured
 
@@ -25,9 +25,9 @@ Unstructured
   - L1
   - random 
 - global
-  - lamp
+  - lamp [Link](https://arxiv.org/abs/2010.07611)
   - L1
-  - SynFlow
+  - SynFlow [Link](https://arxiv.org/abs/2006.05467)
 
 
 ``` 
