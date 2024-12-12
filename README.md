@@ -45,11 +45,6 @@ model = Chain(
   Dropout(0.5),
   Dense(128,6),
 )
-
-input_data_size = (256,2,1) # Dimensions of the typical batch size of the network.
-ratio = 0.5 # ratio of weights or elements to be removed
-localite_pruning = "local" # local or global
-norme_pruning = "L1" # see the following table to find the corresponding pruning methods 
 ```
 
 ## Structured Pruning
@@ -61,7 +56,7 @@ localite_pruning = "local" # local or global
 norme_pruning = "geomedian" # see the following table to find the corresponding pruning methods 
 
 
-r = RatioPrune(ratio,norme_pruning,localite_pruning, (window_size,2,1))
+r = RatioPrune(ratio,norme_pruning,localite_pruning,input_data_size)
 model = filterPruning(model,r)
 ```
 
@@ -78,7 +73,7 @@ localite_pruning = "local" # local or global
 norme_pruning = "geomedian" # see the following table to find the corresponding pruning methods 
 elements_to_prune = [1,1,0,0,0]
 
-r = RatioPrune(ratio,norme_pruning,localite_pruning, (window_size,2,1))
+r = RatioPrune(ratio,norme_pruning,localite_pruning, input_data_size)
 model = filterPruning(model,r,elements_to_prune)
 ```
 
@@ -94,7 +89,7 @@ localite_pruning = "global" # local or global
 norme_pruning = "lamp" # see the following table to find the corresponding pruning methods 
 
 
-r = RatioPrune(ratio,norme_pruning,localite_pruning, (window_size,2,1))
+r = RatioPrune(ratio,norme_pruning,localite_pruning, input_data_size)
 model,masks = weightPruning(model,r)
 apply_masks(model,masks)
 ```
