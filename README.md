@@ -14,10 +14,10 @@ Structured
   - geomedian
   - mean
   - median
-  - cor (à corriger)
+  - cor (to be fixed)
   - random
 - global
-  - cop_0_0 (a corriger)
+  - cop_0_0 (to be fixed)
 
 Unstructured
 
