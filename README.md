@@ -36,13 +36,13 @@ using FluxPruning
 
 model = Chain(
   Conv((7,), 2 => 128, pad=SamePad(), relu),
+  MaxPool((4,)),
   Conv((5,), 128 => 128, pad=SamePad(), relu),
   MaxPool((2,)),
   Flux.flatten,
-  Dense(2048, 256, relu), 
+  Dense(4096, 256, relu), 
   Dropout(0.5),
   Dense(256, 128, relu),
-  Dropout(0.5),
   Dense(128,6),
 )
 ```
