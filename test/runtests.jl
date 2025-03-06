@@ -1,5 +1,4 @@
 using FluxPruning
-using Test
 using Flux
 
 Structured_Local_criterions = ["L1", "L2", "geomedian","mean","median","random"]
