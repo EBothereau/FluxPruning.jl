@@ -1,5 +1,6 @@
 using FluxPruning
 using Flux
+using Test
 
 Structured_Local_criterions = ["L1", "L2", "geomedian","mean","median","random"]
 Structured_Global_criterions = ["cop_0_0"]
