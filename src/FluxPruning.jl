@@ -1,7 +1,6 @@
 module FluxPruning
 
 using Flux
-import BSON
 import Random
 export prune
 using MaskedArrays
