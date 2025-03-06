@@ -1,7 +1,7 @@
 name = "FluxPruning"
 uuid = "aab75b78-9f0d-402c-967e-59140ef06c24"
 authors = ["Emma Bothereau <<emma.bothereau@irisa.fr>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [compat]
 julia = "1.6 - 1.9"
