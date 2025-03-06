@@ -27,7 +27,7 @@ jobs:
           #- '1.7' 
           #- '1.8'
           - '1.9'
-          #- 'pre'
+          - 'pre'
         os:
           - ubuntu-latest
         arch:
