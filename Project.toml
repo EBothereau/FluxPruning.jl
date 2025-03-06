@@ -3,6 +3,21 @@ uuid = "aab75b78-9f0d-402c-967e-59140ef06c24"
 authors = ["Emma Bothereau <<myName@mySurname.fr>"]
 version = "0.1.0"
 
+[compat]
+julia = "1.6-1.9"
+ChainRulesCore = "1.25"
+CUDA= "4.4"
+ChainRulesCore= "1.25"
+Documenter= "1.8"
+DocumenterTools= "0.1"
+Flux= "0.13"
+Functors= "0.4"
+MaskedArrays= "0.2"
+RandomNumbers= "1.6"
+Zygote= "0.6"
+
+
+
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
