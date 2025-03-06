@@ -1,4 +1,4 @@
-# PruningForFlux.jl
+# FluxPruning.jl
 
 [![Build Status](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml?query=branch%3Amain)
 
