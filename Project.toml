@@ -6,7 +6,7 @@ version = "0.1.0"
 [compat]
 julia = "1.6 - 1.11"
 ChainRulesCore = "1.25"
-CUDA = "4"
+CUDA = "4 - 5"
 Flux = "0.13"
 Functors = "0.4"
 RandomNumbers = "1.6"
