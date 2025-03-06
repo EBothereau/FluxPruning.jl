@@ -4,7 +4,7 @@ authors = ["Emma Bothereau <<myName@mySurname.fr>"]
 version = "0.1.0"
 
 [compat]
-julia = "1.6 - 1.10"
+julia = "1.6 - 1.9"
 ChainRulesCore = "1.25"
 CUDA = "4"
 Documenter = "1.8"
