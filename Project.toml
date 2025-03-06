@@ -1,6 +1,6 @@
 name = "FluxPruning"
 uuid = "aab75b78-9f0d-402c-967e-59140ef06c24"
-authors = ["Emma Bothereau <<myName@mySurname.fr>"]
+authors = ["Emma Bothereau <<emma.bothereau@irisa.fr>"]
 version = "0.1.0"
 
 [compat]
