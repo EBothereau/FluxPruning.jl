@@ -3,8 +3,6 @@ module FluxPruning
 using Flux
 import Random
 export prune
-using MaskedArrays
-using MaskedArrays: mask, freeze, MaskedArray, MaskedSliceArray
 using Functors: isleaf, functor
 using LinearAlgebra
 using ChainRulesCore
