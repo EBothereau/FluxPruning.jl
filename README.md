@@ -1,5 +1,7 @@
 # PruningForFlux.jl
 
+[![Build Status](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml?query=branch%3Amain)
+
 This package allows to prune Flux.jl neural networks. 
 For now, this package only allows typical Dense and Convolutional Layers. Behaviour on Residual networks has not been implemented yet. 
 
@@ -102,5 +104,3 @@ mask will return a matrix indicating which weights are to be set to 0. It is nec
 
 
 
-
-[![Build Status](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/EBothereau/FluxPruning/actions/workflows/CI.yml?query=branch%3Amain)
