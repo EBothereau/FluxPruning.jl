@@ -1,10 +1,10 @@
 name = "FluxPruning"
 uuid = "aab75b78-9f0d-402c-967e-59140ef06c24"
-authors = ["Emma Bothereau <<emma.bothereau@irisa.fr>"]
+authors = ["Emma Bothereau <emma.bothereau@irisa.fr>"]
 version = "0.1.0"
 
 [compat]
-julia = "1.6 - 1.11"
+julia = "1.6"
 ChainRulesCore = "1.25"
 CUDA = "4 - 5"
 Flux = "0.13 - 0.16"
